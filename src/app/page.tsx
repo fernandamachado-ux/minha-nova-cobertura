@@ -8,11 +8,11 @@ import NearbyPlacesSection from "@/components/NearbyPlacesSection";
 import LifestyleSection from "@/components/LifestyleSection";
 import MapSection from "@/components/MapSection";
 import CTASection from "@/components/CTASection";
-import ContactForm from "@/components/ContactForm";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 import WhatsAppFloatingButton from "@/components/WhatsAppFloatingButton";
 import TrackingProvider from "@/components/TrackingProvider";
+import TechnicalDetailsSection from "@/components/TechnicalDetailsSection";
 
 export default function Home() {
   return (
@@ -21,40 +21,38 @@ export default function Home() {
         {/* 1. Hero */}
         <HeroSection />
 
-        {/* 2. Galeria */}
+        {/* 2. Ficha Técnica */}
+        <TechnicalDetailsSection />
+
+        {/* 3. Galeria (fotos) */}
         <GallerySection />
 
-        {/* 3. Destaques do imóvel */}
-        <PropertyHighlights />
-
-        {/* 4. Planta baixa */}
-        <FloorPlanSection />
-
-        {/* 5. Descrição comercial */}
+        {/* 4. Descrição comercial */}
         <DescriptionSection />
 
-        {/* 5. Potencial de investimento */}
-        <InvestmentSection />
+        {/* 5. Destaques do imóvel */}
+        <PropertyHighlights />
 
-        {/* 6. Proximidades */}
+        {/* 6. Planta baixa */}
+        <FloorPlanSection />
+
+        {/* 7. Proximidades */}
         <NearbyPlacesSection />
 
-
-
-        {/* 7. Mapa */}
+        {/* 8. Mapa */}
         <MapSection />
 
-        {/* 6. Estilo de vida */}
+        {/* 9. Potencial de investimento */}
+        <InvestmentSection />
+
+        {/* 10. Estilo de vida */}
         <LifestyleSection />
 
-        {/* 8. FAQ */}
+        {/* 11. FAQ */}
         <FAQSection />
 
-        {/* 9. CTA final */}
+        {/* 12. CTA final */}
         <CTASection />
-
-        {/* 10. Formulário de contato */}
-        <ContactForm />
 
         {/* Footer */}
         <Footer />

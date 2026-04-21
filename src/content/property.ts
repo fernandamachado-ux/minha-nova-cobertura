@@ -58,22 +58,22 @@ export const property = {
   ],
 
   // ─── Descrição comercial ────────────────────────────────
-  description: `Esta cobertura no Cascatinha combina espaço interno bem distribuído em 11 ambientes, localizacao estrategica e uma vista aberta para a mata da UFJF, criando uma sensacao rara de tranquilidade dentro da cidade.
+  description: `Esta cobertura no Cascatinha combina espaço interno bem distribuído em 11 ambientes, localização estratégica e uma vista aberta para a mata da UFJF, criando uma sensação rara de tranquilidade dentro da cidade.
 
-Com 120 m² de area, os ambientes favorecem uma rotina confortavel para familias. A sala e cozinha espaçosas, a área de serviço separada com despensa, os 3 quartos (mais um cômodo flexível para escritório ou closet), os 2 banheiros e a ampla cobertura coberta reforcam a versatilidade do imóvel.
+Com 120 m² de área, os ambientes favorecem uma rotina confortável para famílias. A sala e cozinha espaçosas, a área de serviço separada com despensa, os 3 quartos (mais um cômodo flexível para escritório ou closet), os 2 banheiros e a ampla cobertura coberta reforçam a versatilidade do imóvel.
 
-Em vez de prometer luxo artificial, o grande diferencial aqui esta na combinacao entre planta muito bem aproveitada, localizacao, vista para o verde e margem real de valorizacao em uma das regioes mais procuradas de Juiz de Fora.`,
+Em vez de prometer luxo artificial, o grande diferencial aqui está na combinação entre planta muito bem aproveitada, localização, vista para o verde e margem real de valorização em uma das regiões mais procuradas de Juiz de Fora.`,
 
   // ─── Detalhes técnicos ──────────────────────────────────
   details: [
     { label: 'Tipo', value: 'Cobertura Duplex' },
     { label: 'Área Total', value: '120 m²' },
-    { label: 'Quartos', value: '3 + 1 Flex' },
+    { label: 'Quartos', value: '3Q+1 escritório' },
     { label: 'Ambientes', value: '11' },
     { label: 'Banheiros', value: '2' },
     { label: 'Vagas', value: '1 coberta' },
     { label: 'Condomínio', value: 'R$ 513/mês' },
-    { label: 'IPTU', value: 'R$ 280/mês' },
+    { label: 'IPTU', value: 'R$ 190,00' },
     { label: 'Financiamento', value: 'Aceita' },
     { label: 'Andar', value: 'Cobertura' },
   ],
@@ -228,17 +228,17 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
           { name: 'Cozinha espaçosa', area: null, icon: '🍳', description: 'Cozinha ampla com espaço para mesa de refeições e bancada generosa.' },
           { name: 'Despensa', area: null, icon: '🗄️', description: 'Anexa à cozinha, ideal para organização e armazenamento.' },
           { name: 'Área de serviço', area: null, icon: '🧺', description: 'Área de serviço com tanque e espaço para máquina de lavar.' },
-          { name: 'Quarto 1', area: null, icon: '🛏️', description: 'Quarto amplo com armário planejado e boa iluminação natural.' },
-          { name: 'Quarto 2', area: null, icon: '🛏️', description: 'Segundo quarto com espaço confortável e ventilação cruzada.' },
-          { name: 'Banheiro', area: null, icon: '🚿', description: 'Banheiro social com acabamento em bom estado.' },
+          { name: 'Quarto 1', area: null, icon: '🛏️', description: 'Quarto amplo e boa iluminação natural. Vista para o verde garantindo total privacidade.' },
+          { name: 'Quarto 2', area: null, icon: '🛏️', description: 'Segundo quarto com espaço confortável, boa iluminação, total privacidade.' },
+          { name: 'Banheiro Principal', area: null, icon: '🚿', description: 'Banheiro Principal completo e reformado.' },
         ],
       },
       {
         name: '2º Andar (Cobertura)',
         label: 'Cobertura com telha colonial',
         rooms: [
-          { name: 'Cômodo 1 / Quarto 3', area: null, icon: '🛏️', description: 'Espaço versátil: pode ser quarto, escritório ou sala de TV.' },
-          { name: 'Cômodo 2 / Quarto 4', area: null, icon: '🛏️', description: 'Segundo cômodo da cobertura, também transformável em quarto.' },
+          { name: 'Quarto 3', area: null, icon: '🛏️', description: 'Amplo, bem arejado e iluminado, com acesso para escritório.' },
+          { name: 'Escritório', area: null, icon: '💻', description: 'Espaço amplo, com cabeamento de internet próprio, ideal para escritório ou closet.' },
           { name: 'Banheiro da cobertura', area: null, icon: '🚿', description: 'Banheiro completo no andar da cobertura.' },
           { name: '2ª Área de serviço', area: null, icon: '🧺', description: 'Segunda área de serviço na cobertura — praticidade extra.' },
         ],
@@ -248,7 +248,7 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
       {
         icon: '🌿',
         title: 'Vista para a mata da UFJF',
-        description: 'Imovel de fundos with vista aberta para a mata preservada da Universidade Federal de Juiz de Fora, trazendo mais privacidade e sensacao de tranquilidade.',
+        description: 'Imóvel de fundos com vista aberta para a mata preservada da Universidade Federal de Juiz de Fora, trazendo mais privacidade e sensação de tranquilidade.',
       },
       {
         icon: '🏡',
@@ -263,7 +263,7 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
       {
         icon: '🏗️',
         title: 'Cobertura em telha colonial',
-        description: 'Todo o segundo andar é coberto with telha colonial, garantindo conforto térmico e estética tradicional.',
+        description: 'Todo o segundo andar é coberto com telha colonial, garantindo conforto térmico e estética tradicional.',
       },
     ],
   },
@@ -273,7 +273,7 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
     title: 'O estilo de vida que você merece',
     text: `Morar no Cascatinha é viver com a tranquilidade de um bairro residencial sem abrir mão da conveniência urbana. A poucos minutos do Independência Shopping, de universidades, supermercados e dos melhores restaurantes da cidade, você tem tudo ao seu alcance.
 
-É o lugar perfeito para quem busca qualidade de vida com praticidade: mornings tranquilas no terraço, tardes produtivas e noites com a família — tudo isso com a segurança e o conforto que uma cobertura proporciona.`,
+É o lugar perfeito para quem busca qualidade de vida com praticidade: manhãs tranquilas no terraço, tardes produtivas e noites com a família — tudo isso com a segurança e o conforto que uma cobertura proporciona.`,
   },
 
   // ─── Mapa ───────────────────────────────────────────────
@@ -313,12 +313,9 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
     { src: '/images/gallery/16-terraco.png', alt: 'Terraço principal coberto', category: 'Terraço Gourmet' },
     { src: '/images/gallery/17-terraco-pia.png', alt: 'Pia do terraço gourmet', category: 'Terraço Gourmet' },
     { src: '/images/hero-bg-v2.png', alt: 'Vista ampla do terraço', category: 'Terraço Gourmet' },
-    { src: '/images/gallery/21-terraco-balcao2.jpeg', alt: 'Balcão gourmet no terraço', category: 'Terraço Gourmet' },
-    { src: '/images/gallery/22-terraco-pia2.jpeg', alt: 'Pia externa do terraço', category: 'Terraço Gourmet' },
     { src: '/images/gallery/23-terraco.jpeg', alt: 'Entrada do terraço', category: 'Terraço Gourmet' },
     { src: '/images/gallery/24-corredor2.jpeg', alt: 'Corredor do andar superior', category: 'Corredores e Banheiros' },
     { src: '/images/gallery/25-banheiro2.png', alt: 'Banheiro social superior', category: 'Corredores e Banheiros' },
-    { src: '/images/gallery/26-banheiro-pia2.jpeg', alt: 'Pia do banheiro superior', category: 'Corredores e Banheiros' },
     { src: '/images/gallery/improved_room_1.png', alt: 'Quarto 3 superior', category: 'Quartos' },
     { src: '/images/gallery/improved_room_2.png', alt: 'Quarto 3 superior amplo', category: 'Quartos' },
     { src: '/images/gallery/improved_room_3.png', alt: 'Espaço para escritório no andar superior', category: 'Quartos' },
@@ -326,9 +323,7 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
     { src: '/images/gallery/improved_room_5.png', alt: 'Vista lateral do escritório', category: 'Quartos' },
     { src: '/images/gallery/improved_room_6.png', alt: 'Escritório com vista para o verde', category: 'Quartos' },
     { src: '/images/gallery/36-escada-descendo.jpeg', alt: 'Escada de acesso interna', category: 'Escadas' },
-    { src: '/images/gallery/39-banheiro3-pia.jpeg', alt: 'Banheiro do primeiro andar', category: 'Corredores e Banheiros' },
     { src: '/images/gallery/40-banheiro3-geral.png', alt: 'Banheiro social completo', category: 'Corredores e Banheiros' },
-    { src: '/images/gallery/41-banheiro3-amplo.jpeg', alt: 'Interior do banheiro social', category: 'Corredores e Banheiros' },
   ],
 
   // ─── CTA textos ─────────────────────────────────────────

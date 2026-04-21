@@ -9,7 +9,7 @@ export default function DescriptionSection() {
   )}`;
 
   return (
-    <section id="descricao" className="section-padding bg-surface">
+    <section id="descricao" className="section-padding bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-10">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-display text-primary mb-4">
@@ -45,6 +45,9 @@ export default function DescriptionSection() {
             </svg>
             Quero agendar uma visita
           </a>
+          <p className="mt-4 text-sm text-text-light font-medium flex items-center justify-center gap-2">
+             <span className="text-secondary">✦</span> Negociação direta com o proprietário.
+          </p>
         </div>
       </div>
     </section>

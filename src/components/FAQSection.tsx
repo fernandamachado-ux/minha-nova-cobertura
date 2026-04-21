@@ -21,7 +21,7 @@ export default function FAQSection() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-display text-primary mb-4">
-            Perguntas frequentes
+            Mais  informações
           </h2>
           <p className="text-text-light text-lg">
             Tire suas dúvidas antes de entrar em contato
@@ -51,18 +51,16 @@ export default function FAQSection() {
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                   strokeWidth="2"
-                  className={`text-secondary shrink-0 transition-transform duration-300 ${
-                    openIndex === i ? 'rotate-180' : ''
-                  }`}
+                  className={`text-secondary shrink-0 transition-transform duration-300 ${openIndex === i ? 'rotate-180' : ''
+                    }`}
                 >
                   <path d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
 
               <div
-                className={`overflow-hidden transition-all duration-300 ${
-                  openIndex === i ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
-                }`}
+                className={`overflow-hidden transition-all duration-300 ${openIndex === i ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                  }`}
               >
                 <div className="px-5 sm:px-6 pb-5 sm:pb-6">
                   <div className="h-px bg-surface-dark mb-4" />

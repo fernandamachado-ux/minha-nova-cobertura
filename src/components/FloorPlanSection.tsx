@@ -82,44 +82,7 @@ export default function FloorPlanSection() {
           ))}
         </div>
 
-        {/* Nature view & highlights */}
-        <div className="mb-4">
-          <h3 className="text-2xl sm:text-3xl font-bold font-display text-primary text-center mb-10">
-            Diferenciais <span className="gradient-text">exclusivos</span> deste imóvel
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            {property.floorPlan.highlights.map((h, i) => (
-              <div
-                key={i}
-                className={`rounded-2xl p-6 sm:p-8 transition-all duration-300 ${
-                  i === 0
-                    ? 'md:col-span-2 bg-gradient-to-br from-emerald-50 to-green-50 border border-emerald-200/50'
-                    : 'bg-surface border border-surface-dark/30'
-                }`}
-              >
-                <div className="flex items-start gap-4">
-                  <div className={`w-14 h-14 rounded-2xl flex items-center justify-center shrink-0 ${
-                    i === 0 ? 'bg-emerald-100' : 'bg-white'
-                  }`}>
-                    <span className="text-3xl">{h.icon}</span>
-                  </div>
-                  <div>
-                    <h4 className={`font-bold font-display text-lg mb-2 ${
-                      i === 0 ? 'text-emerald-900' : 'text-primary'
-                    }`}>
-                      {h.title}
-                    </h4>
-                    <p className={`text-sm sm:text-base leading-relaxed ${
-                      i === 0 ? 'text-emerald-700' : 'text-text-light'
-                    }`}>
-                      {h.description}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+
       </div>
     </section>
   );

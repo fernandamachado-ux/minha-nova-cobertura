@@ -16,7 +16,7 @@ export default function Footer() {
             </h4>
             <p className="text-sm leading-relaxed">
               Imóvel exclusivo no bairro Cascatinha, Juiz de Fora — MG.
-              Localizacao estrategica, vista para o verde e bom potencial de valorizacao.
+              Localização estratégica, vista para o verde e bom potencial de valorização.
             </p>
           </div>
 
@@ -50,11 +50,8 @@ export default function Footer() {
             <h4 className="text-white font-bold font-display text-lg mb-3">
               Contato
             </h4>
-            <p className="text-sm mb-2">
-              {property.contact.companyName}
-            </p>
-            <p className="text-sm mb-2">
-              {property.contact.email}
+            <p className="text-sm mb-4">
+              Corretora responsável - Remax Fácil
             </p>
             <a
               href={`https://wa.me/${property.contact.phone}`}

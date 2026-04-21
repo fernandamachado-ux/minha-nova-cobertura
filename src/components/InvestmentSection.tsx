@@ -10,34 +10,34 @@ export default function InvestmentSection() {
   )}`;
 
   return (
-    <section id="investimento" className="section-padding bg-surface">
+    <section id="investimento" className="section-padding bg-gradient-to-br from-[#D4AF37] to-[#B38B22] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Header */}
         <div className="text-center mb-12">
-          <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full bg-secondary/10 border border-secondary/20">
+          <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full bg-slate-900 border border-slate-800 shadow-md">
             <span className="text-xl">📈</span>
-            <span className="text-sm font-semibold text-secondary-dark font-display uppercase tracking-wide">
+            <span className="text-sm font-semibold text-white font-display uppercase tracking-wide">
               Oportunidade de investimento
             </span>
           </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-display text-primary mb-4">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-display text-white mb-4 shadow-sm">
             {property.investment.title}
           </h2>
-          <p className="text-text-light text-lg max-w-3xl mx-auto">
+          <p className="text-slate-900 font-medium text-lg max-w-3xl mx-auto">
             {property.investment.subtitle}
           </p>
         </div>
 
         {/* Appraisal badge */}
         <div className="max-w-2xl mx-auto mb-14">
-          <div className="glass-card p-6 sm:p-8 text-center bg-gradient-to-br from-secondary/5 to-secondary/10 border-secondary/20">
-            <p className="text-sm text-text-light mb-2 uppercase tracking-wider font-medium">
+          <div className="p-6 sm:p-8 text-center bg-slate-900 rounded-2xl shadow-xl border border-slate-800 text-white">
+            <p className="text-sm text-white/90 mb-2 uppercase tracking-wider font-medium">
               {property.investment.appraisalSource}
             </p>
-            <p className="text-4xl sm:text-5xl md:text-6xl font-bold font-display gradient-text mb-3">
+            <p className="text-4xl sm:text-5xl md:text-6xl font-bold font-display text-white mb-3 drop-shadow-md">
               {property.investment.appraisalValue}
             </p>
-            <p className="text-text-light text-sm">
+            <p className="text-white/80 text-sm">
               Valor de avaliação oficial do imóvel
             </p>
           </div>
@@ -46,7 +46,7 @@ export default function InvestmentSection() {
         {/* Description */}
         <div className="max-w-3xl mx-auto mb-14">
           {property.investment.description.split('\n\n').map((p, i) => (
-            <p key={i} className="text-text-light text-base sm:text-lg leading-relaxed mb-4">
+            <p key={i} className="text-slate-900 font-medium text-base sm:text-lg leading-relaxed mb-4">
               {p}
             </p>
           ))}
@@ -56,17 +56,17 @@ export default function InvestmentSection() {
         {property.investment.projects && property.investment.projects.length > 0 && (
           <>
             <div className="text-center mb-8">
-              <h3 className="text-2xl font-bold font-display text-primary mb-2">
-                Arraste para ver a <span className="gradient-text">transformação</span>
+              <h3 className="text-2xl font-bold font-display text-white mb-2">
+                Arraste para ver a <span className="text-slate-900">transformação</span>
               </h3>
-              <p className="text-text-light text-sm">
+              <p className="text-white/80 text-sm">
                 Mova o controle deslizante para comparar o antes e depois dos projetos
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
               {property.investment.projects.map((project, i) => (
-                <div key={i} className="glass-card overflow-hidden">
+                <div key={i} className="glass-card overflow-hidden bg-white/10 backdrop-blur-md border border-white/20">
                   {/* Before/After slider */}
                   <BeforeAfterSlider
                     beforeSrc={project.beforeSrc}
@@ -75,11 +75,11 @@ export default function InvestmentSection() {
                     afterAlt={`Depois: ${project.alt}`}
                   />
                   {/* Project info */}
-                  <div className="p-5 sm:p-6">
-                    <h3 className="text-lg font-bold font-display text-primary mb-2">
+                  <div className="p-5 sm:p-6 bg-white/30">
+                    <h3 className="text-lg font-bold font-display text-slate-900 mb-2">
                       {project.title}
                     </h3>
-                    <p className="text-text-light text-sm leading-relaxed">
+                    <p className="text-slate-900 font-medium text-sm leading-relaxed">
                       {project.description}
                     </p>
                   </div>
@@ -91,17 +91,17 @@ export default function InvestmentSection() {
 
         {/* Advantages grid */}
         <div className="max-w-4xl mx-auto mb-12">
-          <h3 className="text-2xl font-bold font-display text-primary text-center mb-8">
-            Por que este imóvel é um <span className="gradient-text">ótimo investimento</span>
+          <h3 className="text-2xl font-bold font-display text-white text-center mb-8 shadow-sm">
+            Por que este imóvel é um <span className="text-white bg-slate-900 px-3 py-1 rounded-lg shadow-md">ótimo investimento</span>
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {property.investment.advantages.map((adv, i) => (
               <div
                 key={i}
-                className="flex items-center gap-3 p-4 rounded-xl bg-white/60 border border-surface-dark/50 hover:border-secondary/30 hover:bg-white/80 transition-all"
+                className="flex items-center gap-3 p-4 rounded-xl bg-slate-900 border border-slate-800 shadow-md hover:bg-slate-800 transition-all text-white font-medium"
               >
                 <span className="text-2xl shrink-0">{adv.icon}</span>
-                <span className="text-sm font-medium text-primary">{adv.text}</span>
+                <span className="text-sm font-medium">{adv.text}</span>
               </div>
             ))}
           </div>
@@ -109,14 +109,14 @@ export default function InvestmentSection() {
 
         {/* CTA */}
         <div className="text-center">
-          <p className="text-text-light mb-6 text-lg">
+          <p className="text-white mb-6 text-lg">
             Quer saber mais sobre o potencial de investimento deste imóvel?
           </p>
           <a
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-whatsapp text-lg"
+            className="btn-whatsapp text-lg shadow-xl"
             onClick={() => {
               trackWhatsAppClick('top');
               trackCTAClick('investment_whatsapp');
@@ -127,6 +127,9 @@ export default function InvestmentSection() {
             </svg>
             Quero investir neste imóvel
           </a>
+          <p className="text-white/80 text-sm font-medium mt-4 flex items-center justify-center gap-2">
+            <span className="text-white/60">✦</span> Negociação direta com o proprietário.
+          </p>
         </div>
       </div>
     </section>
