@@ -212,7 +212,6 @@ Não necessita de reforma estrutural. Se o INVESTIDOR quiser, pode fazer reforma
 PLUS: Acesso rápido a SERVIÇOS ESSENCIAIS como: supermercados, farmácias, escolas, hospitais e shopping.`,
     projects: [] as { beforeSrc: string; afterSrc: string; alt: string; title: string; description: string }[],
     advantages: [
-      { icon: '📈', text: 'Avaliado em R$ 470 mil pela Caixa Econômica' },
       { icon: '🏗️', text: 'Alto potencial de valorização com reforma' },
       { icon: '📍', text: 'Bairro em constante valorização em Juiz de Fora' },
       { icon: '💰', text: 'Possibilidade de financiamento com taxa reduzida' },
