@@ -23,11 +23,25 @@ export default function InvestmentSection() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-display text-white mb-4 shadow-sm">
             {property.investment.title}
           </h2>
-          <p className="text-slate-900 font-medium text-lg max-w-3xl mx-auto">
+          <p className="text-slate-900 font-bold text-lg max-w-3xl mx-auto">
             {property.investment.subtitle}
           </p>
         </div>
 
+        {/* Price box */}
+        <div className="max-w-2xl mx-auto mb-14">
+          <div className="p-6 sm:p-8 text-center bg-slate-900 rounded-2xl shadow-xl border border-slate-800 text-white">
+            <p className="text-sm text-white/70 mb-2 line-through">
+              De R$ 575.000 (valor atualizado)
+            </p>
+            <p className="text-4xl sm:text-5xl md:text-6xl font-bold font-display text-white mb-3 drop-shadow-md">
+              R$ 475.000
+            </p>
+            <p className="text-sm text-white/70">
+              (menos R$ 100 mil do valor de mercado pra vender rápido)
+            </p>
+          </div>
+        </div>
 
         {/* Description */}
         <div className="max-w-3xl mx-auto mb-14">
