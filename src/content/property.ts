@@ -197,13 +197,19 @@ Em vez de prometer luxo artificial, o grande diferencial aqui está na combinaç
 
   // ─── Investimento ───────────────────────────────────────
   investment: {
-    title: 'Potencial de investimento',
-    subtitle: 'Avaliado pela Caixa Econômica em R$ 470.000 há 3 anos, com estimativa atualizada ultrapassando R$ 575.000.',
+    title: 'Grande Potencial de VALORIZAÇÃO!',
+    subtitle: 'Imóveis como este, localizado em uma das áreas mais requisitadas de Juiz de Fora — o bairro Cascatinha — valorizam em média 7% ao ano.',
     appraisalValue: 'R$ 575.000*',
     appraisalSource: 'Estimativa atualizada (Base: Avaliação Caixa + IPCA/INCC)',
-    description: `Este imóvel vai além de uma moradia, é uma oportunidade concreta de investimento já com margem de segurança. Com a avaliação oficial da Caixa Econômica Federal em R$ 470.000 realizada há 3 anos, aplicando a valorização média imobiliária da região do Cascatinha (em torno de 7% ao ano), o valor de mercado atualizado da cobertura é estimado entre R$ 560.000 a R$ 600.000.
+    description: `Estamos vendendo por um valor abaixo da avaliação oficial da Caixa Econômica e de mercado para VENDER RÁPIDO!
 
-Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que compram, reformam e revendem coberturas neste bairro podem obter margens expressivas de lucro. Veja abaixo o potencial de transformação:`,
+É uma oportunidade para:
+
+🏗️ INVESTIDORES que querem INVESTIR, REFORMAR, VALORIZAR E REVENDER rapidamente.
+Não necessita de reforma estrutural. Se o INVESTIDOR quiser, pode fazer reformas estéticas para agregar ainda mais valor ao imóvel e revender com alto retorno.
+
+👨‍👩‍👧‍👦 FAMÍLIAS que querem SE MUDAR RAPIDAMENTE para um lugar mais espaçoso, sem precisar investir em nenhuma reforma.
+PLUS: Acesso rápido a SERVIÇOS ESSENCIAIS como: supermercados, farmácias, escolas, hospitais e shopping.`,
     projects: [] as { beforeSrc: string; afterSrc: string; alt: string; title: string; description: string }[],
     advantages: [
       { icon: '📈', text: 'Avaliado em R$ 470 mil pela Caixa Econômica' },
